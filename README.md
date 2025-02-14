@@ -1,4 +1,4 @@
-![](src/main/resources/astro_remix.png)
+![](https://dl.vixen.link/5tnah2/astro_remix_banner.png)
 # Astro! Remix
 Astro! Remix is a Forge 1.20.1 rewrite of the original [Astro! Fabric mod](https://modrinth.com/mod/astro!) by Prismatica.
 
@@ -11,6 +11,10 @@ Download Astro! Remix from Modrinth: [https://modrinth.com/mod/astro!-remix](htt
 
 ![Available for Forge](https://badges.penpow.dev/badges/supported/forge/cozy.svg)
 [![Available on Modrinth](https://badges.penpow.dev/badges/available/modrinth/cozy.svg)](https://modrinth.com/mod/astro!-remix)
+
+## Gameplay
+
+![Astro! Remix Gameplay GIF](https://github.com/user-attachments/assets/5e5ca286-51bd-4b55-bba7-1f8e5499be30)
 
 ## Items
 
