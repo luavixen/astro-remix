@@ -52,4 +52,4 @@ Rewritten for Forge as Astro! Remix by [luavixen](https://foxgirl.dev/).<br>
 
 ## License
 This project is licensed under the MIT License, the same license as the original Astro! mod.
-More info in the [LICENSE.txt](LICENSE.txt) file.
+More info in the [LICENSE.txt](https://github.com/luavixen/astro-remix/blob/main/LICENSE.txt) file.
