@@ -120,18 +120,19 @@ public class Astro {
         }
 
         var markerEntities = GravityBombMarkerEntity.getMarkersAffecting(entity);
-        if (markerEntities.isEmpty()) return;
         boolean isAffectedDown = false;
         boolean isAffectedUp = false;
-        for (GravityBombMarkerEntity markerEntity : markerEntities) {
-            if (markerEntity.isUp()) {
-                isAffectedUp = true;
-            } else {
-                isAffectedDown = true;
+        if (!markerEntities.isEmpty()) {
+            for (GravityBombMarkerEntity markerEntity : markerEntities) {
+                if (markerEntity.isUp()) {
+                    isAffectedUp = true;
+                } else {
+                    isAffectedDown = true;
+                }
             }
         }
 
-        if (armorCount < 2) {
+        if (armorCount < 2 && (isAffectedDown || isAffectedUp)) {
             EntityAttributeInstance attributeInstance = attributes.getCustomInstance(gravityAttribute);
             setModifierActive(attributeInstance, GRAVITY_MODIFIER_BOMB_DOWN, isAffectedDown);
             setModifierActive(attributeInstance, GRAVITY_MODIFIER_BOMB_UP, isAffectedUp);

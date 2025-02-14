@@ -33,7 +33,7 @@ The Mauveine Sabre is a lightweight sword that can be swung effortlessly, allowi
 ![](https://dl.vixen.link/bf4k1k/crafting_bomb_down.png) ![](https://dl.vixen.link/5p3qf9/crafting_bomb_up.png)
 
 Gravity Bombs are throwable items that can be used to manipulate gravity in a small area, kind of like a lingering potion.
-Craft a Gravity Bomb (Down) to increase gravity in an area, or a Gravity Bomb (Up) to decrease gravity in an area.
+Craft a Gravity Bomb (Up) to increase gravity in an area, or a Gravity Bomb (Down) to decrease gravity in an area.
 
 When they explode, they shower the surrounding space with tiny shards and particles that, for a short while, will affect the gravity of any entity that comes into contact with them.
 

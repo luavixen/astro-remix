@@ -1,5 +1,7 @@
 {
     "type": "minecraft:crafting_shaped",
+    "group": "astro_remix",
+    "category": "misc",
     "pattern": [
         "###",
         "#n#",

@@ -1,5 +1,7 @@
 {
     "type": "minecraft:crafting_shapeless",
+    "group": "astro_remix",
+    "category": "equipment",
     "ingredients": [
         {
             "item": "minecraft:diamond_boots"
