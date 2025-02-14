@@ -7,6 +7,11 @@ Mauveine has a unique effect on local gravity, and it can be harnessed to make a
 
 This mod works well when used in combination with other mods, especially other movement-based items when you're floating around.
 
+Download Astro! Remix from Modrinth: [https://modrinth.com/mod/astro!-remix](https://modrinth.com/mod/astro!-remix)
+
+![Available for Forge](https://badges.penpow.dev/badges/supported/forge/cozy.svg)
+[![Available on Modrinth](https://badges.penpow.dev/badges/available/modrinth/cozy.svg)](https://modrinth.com/mod/astro!-remix)
+
 ## Items
 
 ### Mauveine Ingot
