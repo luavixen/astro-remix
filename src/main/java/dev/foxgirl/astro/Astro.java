@@ -30,6 +30,10 @@ public class Astro {
 
     public static final String MODID = "astro_remix";
 
+    public Astro() {
+        this(FMLJavaModLoadingContext.get());
+    }
+
     public Astro(FMLJavaModLoadingContext context) {
         IEventBus modEventBus = context.getModEventBus();
         IEventBus forgeEventBus = MinecraftForge.EVENT_BUS;
