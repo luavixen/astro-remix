@@ -1,0 +1,22 @@
+{
+    "type": "minecraft:crafting_shapeless",
+    "category": "misc",
+    "ingredients": [
+        {
+            "item": "minecraft:amethyst_cluster"
+        },
+        {
+            "item": "minecraft:amethyst_cluster"
+        },
+        {
+            "item": "minecraft:netherite_scrap"
+        },
+        {
+            "item": "minecraft:netherite_scrap"
+        }
+    ],
+    "result": {
+        "item": "astro_remix:mauveine_ingot",
+        "count": 1
+    }
+}

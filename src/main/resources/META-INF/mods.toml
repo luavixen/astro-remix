@@ -1,0 +1,30 @@
+modLoader = "javafml"
+loaderVersion = "[1,)"
+
+license = "MIT"
+
+[[mods]]
+modId = "astro_remix"
+version = "${version}"
+
+displayName = "Astro! Remix"
+displayURL = "https://modrinth.com/mod/astro!"
+
+logoFile = "astro_remix.png"
+
+description = "Introduces Mauveine, a powerful fusion of netherite and amethyst, allowing you to control local gravity. Forge rewrite of the Astro! mod by Prismatica."
+authors = "Prismatica, luavixen <lua@foxgirl.dev> (https://foxgirl.dev/)"
+
+[[dependencies.astro_remix]]
+modId = "forge"
+mandatory = true
+versionRange = "[47,)"
+ordering = "NONE"
+side = "BOTH"
+
+[[dependencies.astro_remix]]
+modId = "minecraft"
+mandatory = true
+versionRange = "[1.20.1,)"
+ordering = "NONE"
+side = "BOTH"

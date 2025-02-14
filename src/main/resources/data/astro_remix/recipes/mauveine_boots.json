@@ -1,0 +1,15 @@
+{
+    "type": "minecraft:crafting_shapeless",
+    "ingredients": [
+        {
+            "item": "minecraft:diamond_boots"
+        },
+        {
+            "item": "astro_remix:mauveine_ingot"
+        }
+    ],
+    "result": {
+        "item": "astro_remix:mauveine_boots",
+        "count": 1
+    }
+}

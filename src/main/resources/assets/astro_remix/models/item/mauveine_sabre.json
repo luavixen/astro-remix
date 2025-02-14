@@ -1,0 +1,6 @@
+{
+    "parent": "item/handheld",
+    "textures": {
+        "layer0": "astro_remix:item/mauveine_sabre"
+    }
+}
