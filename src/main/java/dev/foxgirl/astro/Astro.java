@@ -120,7 +120,11 @@ public class Astro {
         }
 
         if (armorCount >= 4) {
-            entity.limitFallDistance();
+            entity.fallDistance = 0.0F;
+        } else if (armorCount >= 2) {
+            if (entity.getVelocity().getY() > -1.2 && entity.fallDistance > 1.0F) {
+                entity.fallDistance = 1.0F;
+            }
         }
 
         var markerEntities = GravityBombMarkerEntity.getMarkersAffecting(entity);
